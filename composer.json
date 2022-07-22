@@ -1,0 +1,33 @@
+{
+  "name": "lum/lum-router-riml",
+  "description": "RIML extensions for the Router library",
+  "license": "MIT",
+  "authors":
+  [
+    {
+      "name": "Timothy Totten",
+      "email": "supernovus@gmail.com",
+      "role": "Original Author"
+    }
+  ],
+  "require":
+  {
+    "lum/lum-router": "^1.0",
+    "lum/lum-cli": "^1.0",
+    "riml/riml-parser": "^1.12.3"
+  },
+  "autoload":
+  {
+    "psr-4":
+    {
+      "Lum\\Router\\": "lib"
+    }
+  },
+  "extra":
+  {
+    "branch-alias":
+    {
+      "dev-main": "1.x-dev"
+    }
+  }
+}
